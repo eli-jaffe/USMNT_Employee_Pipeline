@@ -14,15 +14,12 @@ current_path = os.path.dirname(os.path.realpath(__file__))
 parent_path = os.path.dirname(current_path)
 sys.path.append(parent_path)
 
-# from db import get_connection
-from Personal_Research.Jobs.USMNT_Employee_Pipeline.db import get_connection
+from db import get_connection
 
 import time
 import random
 from tqdm import tqdm
 
-# Base URL for USMNT matches on Transfermarkt (adjust year/season as needed)
-# USMNT_MATCHES_URL = "https://www.transfermarkt.com/usa/leistungsdaten/verein/3434/plus/1"  # placeholder
 TM_BASE_URL = "https://www.transfermarkt.com"
 
 
