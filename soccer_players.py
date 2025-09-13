@@ -10,14 +10,12 @@ current_path = os.path.dirname(os.path.realpath(__file__))
 parent_path = os.path.dirname(current_path)
 sys.path.append(parent_path)
 
-# from db import get_connection
+from db import get_connection
 
-from Personal_Research.Jobs.USMNT_Employee_Pipeline.db import get_connection
 from datetime import datetime
 import pandas as pd
 import logging
 
-# TRANSFERMARKT_USA = "https://www.transfermarkt.com/usa/aufstellung/verein/3434"  # placeholder
 TRANSFERMARKT_USA = "https://www.transfermarkt.us/vereinigte-staaten/startseite/verein/3505"
 
 
@@ -116,14 +114,6 @@ def save_players_to_db(df: pd.DataFrame):
             ))
         if (idx + 1) % 10 == 0 or (idx + 1) == len(df):
             logging.info(f"{idx + 1}/{len(df)} players saved...")
-
-        # Use executemany for batch inserts
-        # c.executemany("""
-        #     INSERT OR REPLACE INTO players
-        #     (player_id, full_name, tm_profile_link, tm_player_id, tm_player_url_name, birth_date, position,
-        #      club_name, club_country, last_updated)
-        #     VALUES (:player_id, :full_name, :tm_profile_link, :tm_player_id, :tm_player_url_name, :birth_date, :position, :club_name, :club_country, :last_updated)
-        # """, records)
 
         conn.commit()
         print("[SUCCESS] All records saved successfully!")
