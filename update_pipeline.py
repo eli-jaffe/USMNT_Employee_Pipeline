@@ -1,15 +1,13 @@
 # update_pipeline.py
 import logging
 from datetime import datetime
-# from soccer_players import get_us_players, save_players_to_db
-from Personal_Research.Jobs.USMNT_Employee_Pipeline.soccer_players import get_us_players, save_players_to_db
-# from stats import update_player_stats
-from Personal_Research.Jobs.USMNT_Employee_Pipeline.stats import update_player_stats
+from soccer_players import get_us_players, save_players_to_db
+from stats import update_player_stats
 
 # -----------------------------
 # Logging configuration
 # -----------------------------
-LOG_FILE = "/Personal_Research/Jobs/USMNT_Employee_Pipeline/logs/update_pipeline.log"
+LOG_FILE = ./logs/update_pipeline.log"
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
