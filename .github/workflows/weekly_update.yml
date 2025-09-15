@@ -3,10 +3,10 @@
     on:
       schedule:
         # This cron expression runs the workflow every monday day at 14:00 UTC (10am Eastern)
-        - cron: '0 17 * * 1' 
+        - cron: '0 20 * * 1' 
 
     jobs:
-      generate-report:
+      update-pipeline:
         runs-on: ubuntu-latest
         steps:
           - name: Checkout code
