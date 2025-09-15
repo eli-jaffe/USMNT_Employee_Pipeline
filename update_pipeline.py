@@ -23,6 +23,7 @@ def job():
         # 1️⃣ Update players
         logging.info("Fetching latest player data...")
         players = get_us_players()
+        logging.info(f"Fetched {len(players)} players data.")
         save_players_to_db(players)
         logging.info(f"Saved {len(players)} players to the database.")
 
