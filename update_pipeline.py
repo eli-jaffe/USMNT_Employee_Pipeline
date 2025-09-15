@@ -7,7 +7,7 @@ from stats import update_player_stats
 # -----------------------------
 # Logging configuration
 # -----------------------------
-LOG_FILE = ./logs/update_pipeline.log"
+LOG_FILE = "./logs/update_pipeline.log"
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
