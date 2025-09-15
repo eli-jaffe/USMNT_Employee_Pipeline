@@ -1,3 +1,68 @@
 2025-09-14 23:03:58 [INFO] Starting USMNT update pipeline.
 2025-09-14 23:04:00 [INFO] Fetching latest player data...
 2025-09-14 23:06:11 [INFO] Fetched 24 players data.
+2025-09-14 23:35:23 [INFO] Starting USMNT update pipeline.
+2025-09-14 23:35:23 [INFO] Fetching latest player data...
+2025-09-14 23:35:24 [INFO] Fetched 24 players data.
+2025-09-14 23:35:24 [INFO] Connecting to the database...
+2025-09-14 23:35:24 [INFO] Saving 24 players to the database...
+2025-09-14 23:35:24 [ERROR] Error saving players to the database.
+Traceback (most recent call last):
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/soccer_players.py", line 99, in save_players_to_db
+    c.execute("""
+sqlite3.OperationalError: no such table: players
+2025-09-14 23:35:24 [INFO] Database connection closed.
+2025-09-14 23:35:24 [INFO] Saved 24 players to the database.
+2025-09-14 23:35:24 [INFO] Updating player match stats...
+2025-09-14 23:35:24 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "update_pipeline.py", line 32, in job
+    update_player_stats()
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/stats.py", line 313, in update_player_stats
+    player_ids = data.player_id.unique()
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/hr/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'player_id'
+2025-09-14 23:41:14 [INFO] Starting USMNT update pipeline.
+2025-09-14 23:41:14 [INFO] Fetching latest player data...
+2025-09-14 23:41:15 [INFO] Fetched 24 players data.
+2025-09-14 23:41:15 [INFO] Connecting to the database...
+2025-09-14 23:41:15 [INFO] Saving 24 players to the database...
+2025-09-14 23:41:15 [ERROR] Error saving players to the database.
+Traceback (most recent call last):
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/soccer_players.py", line 99, in save_players_to_db
+    c.execute("""
+sqlite3.OperationalError: no such table: players
+2025-09-14 23:41:15 [INFO] Database connection closed.
+2025-09-14 23:41:15 [INFO] Saved 24 players to the database.
+2025-09-14 23:41:15 [INFO] Updating player match stats...
+2025-09-14 23:41:15 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "update_pipeline.py", line 32, in job
+    update_player_stats()
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/stats.py", line 313, in update_player_stats
+    player_ids = data.player_id.unique()
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/hr/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'player_id'
+2025-09-14 23:49:04 [INFO] Starting USMNT update pipeline.
+2025-09-14 23:49:04 [INFO] Fetching latest player data...
+2025-09-14 23:49:05 [INFO] Fetched 24 players data.
+2025-09-14 23:49:05 [INFO] Connecting to the database...
+2025-09-14 23:49:05 [INFO] Saving 24 players to the database...
+2025-09-14 23:49:05 [INFO] 24/24 players saved...
+2025-09-14 23:49:05 [INFO] All players saved successfully.
+2025-09-14 23:49:05 [INFO] Database connection closed.
+2025-09-14 23:49:05 [INFO] Saved 24 players to the database.
+2025-09-14 23:49:05 [INFO] Updating player match stats...
+2025-09-14 23:57:27 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "update_pipeline.py", line 32, in job
+    update_player_stats()
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/stats.py", line 332, in update_player_stats
+    all_stats = pd.concat([all_stats, stats])
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/hr/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 372, in concat
+    op = _Concatenator(
+  File "/Users/elijaffe/Docs/IO/Personal_Research/Jobs/USMNT_Employee_Pipeline/hr/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 462, in __init__
+    raise TypeError(msg)
+TypeError: cannot concatenate object of type '<class 'list'>'; only Series and DataFrame objs are valid

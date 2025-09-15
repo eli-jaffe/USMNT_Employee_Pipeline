@@ -205,7 +205,7 @@ def parse_season_data(player, season='2025'):
                     "yellow_cards": int(yellow_cards),
                     "second_yellow": int(second_yellow),
                     "red_cards": int(red_cards),
-                    "minutes_played": int(minutes_played),
+                    "minutes_played": minutes_played,
                     "last_updated": datetime.now().isoformat()
                 })
 

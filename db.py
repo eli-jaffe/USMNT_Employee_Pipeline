@@ -48,7 +48,7 @@ def setup_database():
         yellow_cards INTEGER,
         second_yellow INTEGER,
         red_cards INTEGER,
-        minutes_played INTEGER,
+        minutes_played TEXT,
         last_updated TEXT,
         UNIQUE(player_id, season, matchday, date)
     )
