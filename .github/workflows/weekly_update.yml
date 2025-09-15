@@ -1,0 +1,21 @@
+    name: Weekly Pipeline Update
+
+    on:
+      schedule:
+        # This cron expression runs the workflow every monday day at 04:00 UTC (10am Eastern)
+        - cron: '0 14 * * 1' 
+
+    jobs:
+      generate-report:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4
+          - name: Set up Python
+            uses: actions/setup-python@v5
+            with:
+              python-version: '3.x'
+          - name: Install dependencies
+            run: pip install -r requirements.txt
+          - name: Run update pipeline script
+            run: python update_pipeline.py
