@@ -30,7 +30,7 @@ Even though we’re using soccer data here, the workflow is analogous to trackin
 
 ## Project Structure
 ```
-usmnt_analytics/
+usmnt_employee_pipeline/
 ├── db.py # Handles database connection and schema
 ├── players.py # Fetches player data (like employee master data)
 ├── stats.py # Fetches match stats (like performance metrics)
@@ -126,7 +126,7 @@ Instead of manually running the pipeline:
 
 Cron handles scheduling; the script exits cleanly after each run. Logging keeps a record of successes/failures.
 
-```
+```mermaid
 erDiagram
     PLAYERS {
         INTEGER player_id PK
