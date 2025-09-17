@@ -158,7 +158,7 @@ erDiagram
         INTEGER minutes_played
     }
 
-    PLAYERS ||--o{ MATCH_STATS : "has stats for"
+    PLAYERS ||--o{ PLAYER_STATS : "has stats for"
 ```
 
 This shows a one-to-many relationship: each player can have multiple match stats records.
