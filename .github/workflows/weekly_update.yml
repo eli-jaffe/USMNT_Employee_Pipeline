@@ -3,7 +3,7 @@
     on:
       schedule:
         # This cron expression runs the workflow every monday day at 14:00 UTC (10am Eastern)
-        - cron: '35 3 * * 3' 
+        - cron: '0 4 * * 3' 
 
     jobs:
       update-pipeline:
