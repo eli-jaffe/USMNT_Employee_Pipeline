@@ -29,7 +29,7 @@ Even though we’re using soccer data here, the workflow is analogous to trackin
 ---
 
 ## Project Structure
-
+```
 usmnt_analytics/
 ├── db.py # Handles database connection and schema
 ├── players.py # Fetches player data (like employee master data)
@@ -38,7 +38,7 @@ usmnt_analytics/
 ├── requirements.txt # Python dependencies
 ├── logs/ # Log files for scheduled updates
 └── README.md
-
+```
 
 ---
 
@@ -122,10 +122,11 @@ Instead of manually running the pipeline:
 
 ```bash
 0 14 * * 1 /usr/bin/python3 /path/to/project/update_pipeline.py
-
-Cron handles scheduling; the script exits cleanly after each run. Logging keeps a record of successes/failures.
 ```
 
+Cron handles scheduling; the script exits cleanly after each run. Logging keeps a record of successes/failures.
+
+```
 erDiagram
     PLAYERS {
         INTEGER player_id PK
@@ -155,4 +156,4 @@ erDiagram
     }
 
     PLAYERS ||--o{ MATCH_STATS : "has stats for"
-
+```
