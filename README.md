@@ -1,4 +1,4 @@
-# !Soccer Ball USMNT Data Pipeline - HR Analytics Example
+# ⚽ USMNT Data Pipeline - HR Analytics Example
 
 ## Overview
 
