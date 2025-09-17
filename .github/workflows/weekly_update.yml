@@ -3,7 +3,7 @@
     on:
       schedule:
         # This cron expression runs the workflow every monday day at 14:00 UTC (10am Eastern)
-        - cron: '0 4 * * 3' 
+        - cron: '0 12 * * 3' 
 
     jobs:
       update-pipeline:
@@ -23,7 +23,7 @@
               echo Running File...
               status=$(python update_pipeline.py >> logs/log.txt 2>&1; echo $?)
               cat logs/log.txt
-              echo ::set-output name=status::$status
+              echo "status=status"  >> $GITHUB_OUTPUT
           - name: Commit log
             run: |
               git config --global user.name 'GitHub Action'
