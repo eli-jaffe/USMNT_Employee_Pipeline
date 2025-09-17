@@ -124,7 +124,7 @@ Instead of manually running the pipeline:
 0 14 * * 1 /usr/bin/python3 /path/to/project/update_pipeline.py
 
 Cron handles scheduling; the script exits cleanly after each run. Logging keeps a record of successes/failures.
-
+```
 
 erDiagram
     PLAYERS {
