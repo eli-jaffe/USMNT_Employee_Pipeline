@@ -4,6 +4,7 @@
       schedule:
         # This cron expression runs the workflow every monday day at 14:00 UTC (10am Eastern)
         - cron: '0 13 * * 3' 
+      workflow_dispatch:     # Allow manual runs
 
     jobs:
       update-pipeline:
