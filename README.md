@@ -32,7 +32,7 @@ Even though we’re using soccer data here, the workflow is analogous to trackin
 ```
 usmnt_employee_pipeline/
 ├── db.py # Handles database connection and schema
-├── players.py # Fetches player data (like employee master data)
+├── players.py # Fetches player data (like employee detail data)
 ├── stats.py # Fetches match stats (like performance metrics)
 ├── update_pipeline.py # Runs the full ETL workflow
 ├── requirements.txt # Python dependencies
@@ -49,7 +49,7 @@ usmnt_employee_pipeline/
 - **Purpose**: Store all player and match data in a structured way.
 - **Tables**:
   - `players` – like an HR master table with one row per employee/player
-  - `match_stats` – like HR performance metrics, linked to `players` by `player_id`
+  - `player_stats` – like HR performance metrics, linked to `players` by `player_id`
   
 **Example of `players` DataFrame**
 
@@ -58,7 +58,7 @@ usmnt_employee_pipeline/
 | 101       | Christian Pulisic | 1998-09-18 | LW       | Chelsea   | England      | 2025-09-06   |
 | 102       | Gio Reyna       | 2002-11-13 | AM       | Dortmund  | Germany      | 2025-09-06   |
 
-**Example of `match_stats` DataFrame**
+**Example of `player_stats` DataFrame**
 
 | player_id | matchday | date      | venue | team | opponent_name | match_report_url           | result | position | goals | assists | yellow_cards | minutes_played |
 |-----------|----------|-----------|-------|------|---------------|---------------------------|--------|----------|-------|--------|--------------|----------------|
@@ -81,7 +81,7 @@ usmnt_employee_pipeline/
 
 ---
 
-### 3️⃣ Match Stats Fetcher (`stats.py`)
+### 3️⃣ Player Stats Fetcher (`stats.py`)
 
 - **Purpose**: Track detailed stats for each player per match.  
 - Returns a **Pandas DataFrame** ready to save in the `player_stats` table.  
@@ -105,11 +105,11 @@ usmnt_employee_pipeline/
 
 1. **Fetch player data** → `get_us_players()` → DataFrame  
 2. **Save player data** → `save_players_to_db(df)` → Database  
-3. **Fetch match stats** → `scrape_stats()` → DataFrame  
-4. **Save match stats** → `update_player_stats(df)` → Database  
+3. **Fetch match stats** → `update_player_stats(df)` → Database   
+4. **Save match stats** → `save_player_stats_to_db(df)` → Database  
 5. **Log success/failure** → `/logs/update_pipeline.log`  
 
-In HR Analytics, this step is like scheduling **daily/weekly HR dashboards** that automatically pull from multiple sources.
+In HR Analytics, this step feeds our data warehouse, which enables us to create **daily/weekly HR dashboards** that automatically pull from multiple sources.
 
 ---
 
@@ -141,7 +141,7 @@ erDiagram
         DATE last_updated
     }
     
-    MATCH_STATS {
+    PLAYER_STATS {
         INTEGER stat_id
         INTEGER player_id
         INTEGER matchday
