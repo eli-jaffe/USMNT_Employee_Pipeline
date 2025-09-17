@@ -17,7 +17,7 @@ logging.basicConfig(
 
 
 def job():
-    logging.info("Starting USMNT update pipeline.")
+    logging.info(f"Starting USMNT update pipeline at {datetime.now()}.")
 
     try:
         # 1️⃣ Update players
