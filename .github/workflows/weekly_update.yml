@@ -23,12 +23,12 @@
               echo Running File...
               status=$(python update_pipeline.py >> logs/log.txt 2>&1; echo $?)
               cat logs/log.txt
-              echo "status=status"  >> $GITHUB_OUTPUT
+              echo ::set-output name=status::$status
           - name: Commit log
             run: |
               git config --global user.name 'GitHub Action'
               git config --global user.email 'action@github.com'
               git add -A
-              git checkout master
+              git checkout main
               git diff-index --quiet HEAD || git commit -am "deploy workflow logs"
               git push
