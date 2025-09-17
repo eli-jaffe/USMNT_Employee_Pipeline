@@ -124,12 +124,15 @@ Instead of manually running the pipeline:
 0 14 * * 1 /usr/bin/python3 /path/to/project/update_pipeline.py
 ```
 
+---
+
+
 Cron handles scheduling; the script exits cleanly after each run. Logging keeps a record of successes/failures.
 
 ```mermaid
 erDiagram
     PLAYERS {
-        INTEGER player_id PK
+        INTEGER player_id
         STRING full_name
         DATE birth_date
         STRING position
@@ -139,8 +142,8 @@ erDiagram
     }
     
     MATCH_STATS {
-        INTEGER stat_id PK
-        INTEGER player_id FK
+        INTEGER stat_id
+        INTEGER player_id
         INTEGER matchday
         DATE date
         STRING venue
@@ -157,3 +160,24 @@ erDiagram
 
     PLAYERS ||--o{ MATCH_STATS : "has stats for"
 ```
+
+This shows a one-to-many relationship: each player can have multiple match stats records.
+
+---
+
+
+## Notes for Beginners
+
+- This workflow uses Python and SQLite for simplicity.
+- In a real HR Analytics setting, you would replace web scraping with APIs or direct database queries to your HRIS, ATS, or payroll system.
+- The workflow demonstrates the core concepts: data ingestion, relational storage, unique IDs, foreign key relationships, and automated updates.
+- You can expand this by adding more tables (departments, roles, engagement surveys) and scheduling incremental data loads.
+
+## Summary
+
+This toy example shows how a small, automated data pipeline can form the **foundation of a People Analytics platform**:
+
+1. Centralized, structured data.
+2. Relational linking between entities (players → match stats / employees → HR records).
+3. Scheduled updates to keep analytics fresh and reliable.
+4. Clear separation of components for maintainability and scalability.
