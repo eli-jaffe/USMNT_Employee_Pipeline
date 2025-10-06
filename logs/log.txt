@@ -547,3 +547,121 @@ Connection <sqlite3.Connection object at 0x7f066d017790> created
 [SUCCESS] Player stats saved/updated successfully.
 [INFO] Database connection closed.
 Player stats update complete.
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7f6fa28a75b0> created
+[INFO] Connection established.
+[INFO] Saving 26 player records to database...
+[SUCCESS] All records saved successfully!
+[INFO] Database connection closed.
+Fetching player list...
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7f6fa28a75b0> created
+[INFO] Connection established.
+[SUCCESS] Loaded 39 players from the database.
+[INFO] Database connection closed.
+Found 39 players.
+  0%|          | 0/39 [00:00<?, ?it/s]  3%|▎         | 1/39 [00:07<04:57,  7.83s/it]  5%|▌         | 2/39 [00:16<05:01,  8.14s/it]  8%|▊         | 3/39 [00:22<04:21,  7.26s/it] 10%|█         | 4/39 [00:28<04:04,  6.98s/it] 13%|█▎        | 5/39 [00:38<04:23,  7.75s/it] 15%|█▌        | 6/39 [02:17<21:27, 39.01s/it] 18%|█▊        | 7/39 [02:38<17:36, 33.00s/it] 21%|██        | 8/39 [02:51<13:45, 26.63s/it] 23%|██▎       | 9/39 [03:09<12:01, 24.05s/it] 26%|██▌       | 10/39 [03:28<10:50, 22.45s/it] 28%|██▊       | 11/39 [04:34<16:42, 35.81s/it] 31%|███       | 12/39 [04:40<12:03, 26.79s/it] 33%|███▎      | 13/39 [04:56<10:06, 23.33s/it] 36%|███▌      | 14/39 [05:15<09:09, 21.98s/it] 36%|███▌      | 14/39 [05:15<09:22, 22.51s/it]
+                          player_id  ...                last_updated
+0  2b513d677f85cae654bcae694b4a61ad  ...  2025-09-14T23:49:05.033619
+
+[1 rows x 10 columns]
+Sleeping for 7.09 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+1  3abaf280fbe70a8916523d8fd0b56ab5  ...  2025-09-29T14:10:22.166319
+
+[1 rows x 10 columns]
+Sleeping for 7.82 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+2  ce13ba17ad3752e051bc49cfbaf5ddbc  ...  2025-09-29T14:10:22.166482
+
+[1 rows x 10 columns]
+Sleeping for 5.55 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+3  e5f538bcbc4a195eeb47bf55ab75abf8  ...  2025-09-29T14:10:22.166857
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "6'"
+Sleeping for 5.98 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+4  ddd666b0632290e346686a472c19f569  ...  2025-09-29T14:10:22.166989
+
+[1 rows x 10 columns]
+Sleeping for 8.31 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+5  1dedbe1fb28035f9870913e42cfc56ea  ...  2025-09-29T14:10:22.167249
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "81'"
+Error parsing row: invalid literal for int() with base 10: "69'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "27'"
+Sleeping for 10.56 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+6  513544f5f7612401874674cb793b8f23  ...  2025-09-29T14:10:22.167480
+
+[1 rows x 10 columns]
+Sleeping for 19.92 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+7  0c49bd1bde21d785799d36cd2bf09ae9  ...  2025-09-29T14:10:22.167596
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "58'"
+Error parsing row: invalid literal for int() with base 10: "88'"
+Error parsing row: invalid literal for int() with base 10: "45 + 5'"
+Sleeping for 12.33 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+8  92e939dfa453b55b492da8f0bed7d561  ...  2025-09-29T14:10:22.167710
+
+[1 rows x 10 columns]
+Sleeping for 17.86 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+9  7414dc55c1811f36322567cfe6fd4e34  ...  2025-09-29T14:10:22.167937
+
+[1 rows x 10 columns]
+Sleeping for 18.39 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+10  80bb65f07f70b1c7923842eee10269a0  ...  2025-09-29T14:10:22.168076
+
+[1 rows x 10 columns]
+Sleeping for 10.59 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+11  4104fd18f7131d9cd4978e7f22ddf31e  ...  2025-09-29T14:10:22.168871
+
+[1 rows x 10 columns]
+Sleeping for 5.05 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+12  bfb4610063cc4fe03ea45aa3d2ac6164  ...  2025-09-29T14:10:22.168982
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "86'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 14.74 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+13  a1a20d702e05d6a2ecc504e254a2e0ad  ...  2025-10-06T14:10:14.812616
+
+[1 rows x 10 columns]
+Sleeping for 18.14 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+14  89115bb8efd1d9f3202f9edf594074f2  ...  2025-10-06T14:10:14.812772
+
+[1 rows x 10 columns]
