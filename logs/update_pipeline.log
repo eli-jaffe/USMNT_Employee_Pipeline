@@ -47,3 +47,31 @@ Traceback (most recent call last):
     club_code = team_country[club_name]
                 ~~~~~~~~~~~~^^^^^^^^^^^
 KeyError: 'New England Revolution'
+2025-10-13 14:11:00 [INFO] Starting USMNT update pipeline at 2025-10-13 14:11:00.257303.
+2025-10-13 14:11:00 [INFO] Fetching latest player data...
+2025-10-13 14:11:01 [INFO] Fetched 26 players data.
+2025-10-13 14:11:01 [INFO] Connecting to the database...
+2025-10-13 14:11:01 [INFO] Saving 26 players to the database...
+2025-10-13 14:11:01 [INFO] 26/26 players saved...
+2025-10-13 14:11:01 [INFO] All players saved successfully.
+2025-10-13 14:11:01 [INFO] Database connection closed.
+2025-10-13 14:11:01 [INFO] Saved 26 players to the database.
+2025-10-13 14:11:01 [INFO] Updating player match stats...
+2025-10-13 14:13:31 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 32, in job
+    update_player_stats()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 332, in update_player_stats
+    all_stats = pd.concat([all_stats, stats])
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+        objs,
+    ...<8 lines>...
+        sort=sort,
+    )
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/reshape/concat.py", line 448, in __init__
+    ndims = self._get_ndims(objs)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/reshape/concat.py", line 489, in _get_ndims
+    raise TypeError(msg)
+TypeError: cannot concatenate object of type '<class 'list'>'; only Series and DataFrame objs are valid
