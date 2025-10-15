@@ -92,10 +92,15 @@ def generate_player_details_url(tm_player_id, tm_player_url_name, club_name, sea
         'CF América': 'MEXA',
         'AS Monaco': 'FR1',
         'Norwich City': 'GB2',
-        'Southampton FC': 'GB2'
+        'Southampton FC': 'GB2',
+        'New England Revolution': 'MLS1'
     }
 
-    club_code = team_country[club_name]
+    try:
+        club_code = team_country[club_name]
+    except:
+        print(f'Club name [{club_name}] not found')
+        club_code = 'unknown'
 
     return f'{TM_BASE_URL}/{tm_player_url_name}/leistungsdatendetails/spieler/{tm_player_id}/wettbewerb/{club_code}/saison/{season}'
 
