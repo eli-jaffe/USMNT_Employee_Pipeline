@@ -313,7 +313,7 @@ def update_player_stats():
     player_ids = data.player_id.unique()
 
     all_stats = pd.DataFrame()
-    for i, id in enumerate(tqdm(player_ids)):
+    for i, id in enumerate((player_ids):
 
         if i > 0 and i % 5 == 0:
             time.sleep(55)
