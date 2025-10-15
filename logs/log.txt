@@ -854,3 +854,68 @@ Sleep finished.
 14  89115bb8efd1d9f3202f9edf594074f2  ...  2025-10-15T03:07:55.601348
 
 [1 rows x 10 columns]
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7fd0763875b0> created
+[INFO] Connection established.
+[INFO] Saving 26 player records to database...
+[SUCCESS] All records saved successfully!
+[INFO] Database connection closed.
+Fetching player list...
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7fd0763875b0> created
+[INFO] Connection established.
+[SUCCESS] Loaded 39 players from the database.
+[INFO] Database connection closed.
+Found 39 players.
+  0%|          | 0/39 [00:00<?, ?it/s]  3%|▎         | 1/39 [00:10<06:26, 10.17s/it]  5%|▌         | 2/39 [00:25<08:02, 13.04s/it]  8%|▊         | 3/39 [00:43<09:20, 15.58s/it] 10%|█         | 4/39 [00:57<08:45, 15.00s/it] 13%|█▎        | 5/39 [01:15<09:00, 15.89s/it] 15%|█▌        | 6/39 [02:17<17:18, 31.47s/it] 15%|█▌        | 6/39 [02:33<14:06, 25.65s/it]
+                          player_id  ...                last_updated
+0  2b513d677f85cae654bcae694b4a61ad  ...  2025-09-14T23:49:05.033619
+
+[1 rows x 10 columns]
+Sleeping for 9.57 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+1  3abaf280fbe70a8916523d8fd0b56ab5  ...  2025-09-29T14:10:22.166319
+
+[1 rows x 10 columns]
+Sleeping for 14.61 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+2  ce13ba17ad3752e051bc49cfbaf5ddbc  ...  2025-09-29T14:10:22.166482
+
+[1 rows x 10 columns]
+Sleeping for 18.00 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+3  e5f538bcbc4a195eeb47bf55ab75abf8  ...  2025-09-29T14:10:22.166857
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "6'"
+Sleeping for 13.61 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+4  ddd666b0632290e346686a472c19f569  ...  2025-09-29T14:10:22.166989
+
+[1 rows x 10 columns]
+Sleeping for 17.08 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+5  1dedbe1fb28035f9870913e42cfc56ea  ...  2025-09-29T14:10:22.167249
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "81'"
+Error parsing row: invalid literal for int() with base 10: "69'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "27'"
+Sleeping for 6.14 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+6  513544f5f7612401874674cb793b8f23  ...  2025-09-29T14:10:22.167480
+
+[1 rows x 10 columns]
+Warning: Failed to fetch match https://www.transfermarkt.com/nathan-harriel/leistungsdatendetails/spieler/610627/wettbewerb/MLS1/saison/2025: 403
+Sleeping for 6.66 seconds...
+Sleep finished.
