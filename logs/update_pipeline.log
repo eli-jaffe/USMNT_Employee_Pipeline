@@ -228,3 +228,26 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/reshape/concat.py", line 489, in _get_ndims
     raise TypeError(msg)
 TypeError: cannot concatenate object of type '<class 'list'>'; only Series and DataFrame objs are valid
+2025-10-15 12:59:23 [INFO] Starting USMNT update pipeline at 2025-10-15 12:59:23.238425.
+2025-10-15 12:59:23 [INFO] Fetching latest player data...
+2025-10-15 12:59:24 [INFO] Fetched 26 players data.
+2025-10-15 12:59:24 [INFO] Connecting to the database...
+2025-10-15 12:59:24 [INFO] Saving 26 players to the database...
+2025-10-15 12:59:24 [INFO] 26/26 players saved...
+2025-10-15 12:59:24 [INFO] All players saved successfully.
+2025-10-15 12:59:24 [INFO] Database connection closed.
+2025-10-15 12:59:24 [INFO] Saved 26 players to the database.
+2025-10-15 12:59:24 [INFO] Updating player match stats...
+2025-10-15 13:04:51 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 33, in job
+    update_player_stats()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 345, in update_player_stats
+    stats = parse_season_data(player)
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 110, in parse_season_data
+    player_season_details_url = generate_player_details_url(tm_player_id, tm_player_url_name, club_name)
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 98, in generate_player_details_url
+    club_code = team_country[club_name]
+                ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'New England Revolution'

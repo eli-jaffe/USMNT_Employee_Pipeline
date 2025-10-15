@@ -1081,3 +1081,120 @@ Sleep finished.
 Warning: Failed to fetch match https://www.transfermarkt.com/sebastian-berhalter/leistungsdatendetails/spieler/734761/wettbewerb/MLS1/saison/2025: 403
 Sleeping for 5.45 seconds...
 Sleep finished.
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7f614998b5b0> created
+[INFO] Connection established.
+[INFO] Saving 26 player records to database...
+[SUCCESS] All records saved successfully!
+[INFO] Database connection closed.
+Fetching player list...
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7f614998b5b0> created
+[INFO] Connection established.
+[SUCCESS] Loaded 39 players from the database.
+[INFO] Database connection closed.
+Found 39 players.
+                          player_id  ...                last_updated
+0  2b513d677f85cae654bcae694b4a61ad  ...  2025-09-14T23:49:05.033619
+
+[1 rows x 10 columns]
+Sleeping for 18.14 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+1  3abaf280fbe70a8916523d8fd0b56ab5  ...  2025-09-29T14:10:22.166319
+
+[1 rows x 10 columns]
+Sleeping for 13.55 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+2  ce13ba17ad3752e051bc49cfbaf5ddbc  ...  2025-09-29T14:10:22.166482
+
+[1 rows x 10 columns]
+Sleeping for 13.75 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+3  e5f538bcbc4a195eeb47bf55ab75abf8  ...  2025-09-29T14:10:22.166857
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "6'"
+Sleeping for 16.03 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+4  ddd666b0632290e346686a472c19f569  ...  2025-09-29T14:10:22.166989
+
+[1 rows x 10 columns]
+Sleeping for 12.46 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+5  1dedbe1fb28035f9870913e42cfc56ea  ...  2025-09-29T14:10:22.167249
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "81'"
+Error parsing row: invalid literal for int() with base 10: "69'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "27'"
+Sleeping for 18.20 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+6  513544f5f7612401874674cb793b8f23  ...  2025-09-29T14:10:22.167480
+
+[1 rows x 10 columns]
+Sleeping for 9.91 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+7  0c49bd1bde21d785799d36cd2bf09ae9  ...  2025-09-29T14:10:22.167596
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "58'"
+Error parsing row: invalid literal for int() with base 10: "88'"
+Error parsing row: invalid literal for int() with base 10: "45 + 5'"
+Sleeping for 7.90 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+8  92e939dfa453b55b492da8f0bed7d561  ...  2025-09-29T14:10:22.167710
+
+[1 rows x 10 columns]
+Sleeping for 15.66 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+9  7414dc55c1811f36322567cfe6fd4e34  ...  2025-09-29T14:10:22.167937
+
+[1 rows x 10 columns]
+Sleeping for 10.93 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+10  80bb65f07f70b1c7923842eee10269a0  ...  2025-09-29T14:10:22.168076
+
+[1 rows x 10 columns]
+Sleeping for 16.81 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+11  4104fd18f7131d9cd4978e7f22ddf31e  ...  2025-09-29T14:10:22.168871
+
+[1 rows x 10 columns]
+Sleeping for 16.57 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+12  bfb4610063cc4fe03ea45aa3d2ac6164  ...  2025-09-29T14:10:22.168982
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "86'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 10.88 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+13  a1a20d702e05d6a2ecc504e254a2e0ad  ...  2025-10-15T12:59:24.447534
+
+[1 rows x 10 columns]
+Sleeping for 19.72 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+14  89115bb8efd1d9f3202f9edf594074f2  ...  2025-10-15T12:59:24.447694
+
+[1 rows x 10 columns]
