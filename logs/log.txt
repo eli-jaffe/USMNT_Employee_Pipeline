@@ -919,3 +919,10 @@ Sleep finished.
 Warning: Failed to fetch match https://www.transfermarkt.com/nathan-harriel/leistungsdatendetails/spieler/610627/wettbewerb/MLS1/saison/2025: 403
 Sleeping for 6.66 seconds...
 Sleep finished.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 5, in <module>
+    from stats import update_player_stats
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 316
+    for i, id in enumerate((player_ids):
+                                       ^
+SyntaxError: invalid syntax
