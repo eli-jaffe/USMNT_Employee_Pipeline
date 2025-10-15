@@ -26,6 +26,7 @@ def job():
         logging.info(f"Fetched {len(players)} players data.")
         save_players_to_db(players)
         logging.info(f"Saved {len(players)} players to the database.")
+        players.to_csv('/players.csv', index=False)
 
         # 2️⃣ Update stats
         logging.info("Updating player match stats...")
