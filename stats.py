@@ -112,7 +112,28 @@ def parse_season_data(player, season='2025'):
     r = requests.get(player_season_details_url, headers=HEADERS)
     if r.status_code != 200:
         print(f"Warning: Failed to fetch match {player_season_details_url}: {r.status_code}")
-        return []
+
+        season_stats = pd.DataFrame({
+                    "player_id": [player_id],
+                    "season": ['unknown - season url incorrect or does not exist'],
+                    "matchday":  ['unknown'],
+                    "date":  ['unknown'],
+                    "venue":  ['unknown'],
+                    "team":  ['unknown'],
+                    "opponent_name":  ['unknown'],
+                    "opponent_link":  ['unknown'],
+                    "match_report_url":  ['unknown'],
+                    "result":  ['unknown'],
+                    "position":  ['unknown'],
+                    "goals": [None],
+                    "assists": [None],
+                    "yellow_cards": [None],
+                    "second_yellow": [None],
+                    "red_cards": [None],
+                    "minutes_played": [None],
+                    "last_updated": [datetime.now().isoformat()]
+                })
+        return season_stats
 
     soup = BeautifulSoup(r.text, "html.parser")
 
@@ -211,34 +232,12 @@ def parse_season_data(player, season='2025'):
 
             except Exception as e:
                 print(f"Error parsing row: {e}")
-
-                season_stats.append({
-                    "player_id": player_id,
-                    "season": 'unknown',
-                    "matchday":  'unknown',
-                    "date":  'unknown',
-                    "venue":  'unknown',
-                    "team":  'unknown',
-                    "opponent_name":  'unknown',
-                    "opponent_link":  'unknown',
-                    "match_report_url":  'unknown',
-                    "result":  'unknown',
-                    "position":  'unknown',
-                    "goals": None,
-                    "assists": None,
-                    "yellow_cards": None,
-                    "second_yellow": None,
-                    "red_cards": None,
-                    "minutes_played": None,
-                    "last_updated": datetime.now().isoformat()
-                })
-                
-                # continue
+                continue
 
     except:
         season_stats.append({
             "player_id": player_id,
-            "season": 'unknown',
+            "season": 'unknown - season url found but failed to parse',
             "matchday":  'unknown',
             "date":  'unknown',
             "venue":  'unknown',
