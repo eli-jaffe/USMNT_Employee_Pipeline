@@ -211,7 +211,29 @@ def parse_season_data(player, season='2025'):
 
             except Exception as e:
                 print(f"Error parsing row: {e}")
-                continue
+
+                season_stats.append({
+                    "player_id": player_id,
+                    "season": 'unknown',
+                    "matchday":  'unknown',
+                    "date":  'unknown',
+                    "venue":  'unknown',
+                    "team":  'unknown',
+                    "opponent_name":  'unknown',
+                    "opponent_link":  'unknown',
+                    "match_report_url":  'unknown',
+                    "result":  'unknown',
+                    "position":  'unknown',
+                    "goals": None,
+                    "assists": None,
+                    "yellow_cards": None,
+                    "second_yellow": None,
+                    "red_cards": None,
+                    "minutes_played": None,
+                    "last_updated": datetime.now().isoformat()
+                })
+                
+                # continue
 
     except:
         season_stats.append({
