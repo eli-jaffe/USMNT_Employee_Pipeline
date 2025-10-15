@@ -26,7 +26,7 @@ def job():
         logging.info(f"Fetched {len(players)} players data.")
         save_players_to_db(players)
         logging.info(f"Saved {len(players)} players to the database.")
-        players.to_csv('/players.csv', index=False)
+        players.to_csv('players.csv', index=False) # this saves the table as a csv for easier viewing on github.com
 
         # 2️⃣ Update stats
         logging.info("Updating player match stats...")
