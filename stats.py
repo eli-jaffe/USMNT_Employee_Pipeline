@@ -334,7 +334,7 @@ def update_player_stats():
     print(f"Saving {len(all_stats)} player stats to DB...")
     save_player_stats_to_db(all_stats)
     print("Player stats update complete.")
-    all_stats.to_csv('/player_stats.csv', index=False)
+    all_stats.to_csv('player_stats.csv', index=False) # saves as a csv for easier online viewing. Not necessary for workflow
 
 
 if __name__ == "__main__":
