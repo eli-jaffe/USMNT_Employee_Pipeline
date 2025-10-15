@@ -251,3 +251,16 @@ Traceback (most recent call last):
     club_code = team_country[club_name]
                 ~~~~~~~~~~~~^^^^^^^^^^^
 KeyError: 'New England Revolution'
+2025-10-15 13:15:41 [INFO] Starting USMNT update pipeline at 2025-10-15 13:15:41.678966.
+2025-10-15 13:15:41 [INFO] Fetching latest player data...
+2025-10-15 13:15:42 [INFO] Fetched 26 players data.
+2025-10-15 13:15:42 [INFO] Connecting to the database...
+2025-10-15 13:15:42 [INFO] Saving 26 players to the database...
+2025-10-15 13:15:42 [INFO] 26/26 players saved...
+2025-10-15 13:15:42 [INFO] All players saved successfully.
+2025-10-15 13:15:42 [INFO] Database connection closed.
+2025-10-15 13:15:42 [INFO] Saved 26 players to the database.
+2025-10-15 13:15:42 [INFO] Updating player match stats...
+2025-10-15 13:31:09 [INFO] Player stats updated successfully.
+2025-10-15 13:31:09 [INFO] USMNT update pipeline completed successfully.
+
