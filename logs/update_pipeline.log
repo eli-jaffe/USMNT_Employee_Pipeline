@@ -75,3 +75,49 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/reshape/concat.py", line 489, in _get_ndims
     raise TypeError(msg)
 TypeError: cannot concatenate object of type '<class 'list'>'; only Series and DataFrame objs are valid
+2025-10-15 03:02:27 [INFO] Starting USMNT update pipeline at 2025-10-15 03:02:27.850116.
+2025-10-15 03:02:27 [INFO] Fetching latest player data...
+2025-10-15 03:02:28 [INFO] Fetched 26 players data.
+2025-10-15 03:02:28 [INFO] Connecting to the database...
+2025-10-15 03:02:28 [INFO] Saving 26 players to the database...
+2025-10-15 03:02:28 [INFO] 26/26 players saved...
+2025-10-15 03:02:28 [INFO] All players saved successfully.
+2025-10-15 03:02:28 [INFO] Database connection closed.
+2025-10-15 03:02:28 [INFO] Saved 26 players to the database.
+2025-10-15 03:02:28 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 29, in job
+    players.to_csv('/players.csv', index=False)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/core/generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: '/players.csv'

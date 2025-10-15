@@ -730,3 +730,9 @@ Sleep finished.
 Warning: Failed to fetch match https://www.transfermarkt.com/nathan-harriel/leistungsdatendetails/spieler/610627/wettbewerb/MLS1/saison/2025: 403
 Sleeping for 6.87 seconds...
 Sleep finished.
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7ff389b535b0> created
+[INFO] Connection established.
+[INFO] Saving 26 player records to database...
+[SUCCESS] All records saved successfully!
+[INFO] Database connection closed.
