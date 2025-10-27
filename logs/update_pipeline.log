@@ -277,3 +277,16 @@ KeyError: 'New England Revolution'
 2025-10-20 14:26:03 [INFO] Player stats updated successfully.
 2025-10-20 14:26:03 [INFO] USMNT update pipeline completed successfully.
 
+2025-10-27 14:10:50 [INFO] Starting USMNT update pipeline at 2025-10-27 14:10:50.539959.
+2025-10-27 14:10:50 [INFO] Fetching latest player data...
+2025-10-27 14:11:22 [INFO] Fetched 26 players data.
+2025-10-27 14:11:22 [INFO] Connecting to the database...
+2025-10-27 14:11:22 [INFO] Saving 26 players to the database...
+2025-10-27 14:11:22 [INFO] 26/26 players saved...
+2025-10-27 14:11:22 [INFO] All players saved successfully.
+2025-10-27 14:11:22 [INFO] Database connection closed.
+2025-10-27 14:11:22 [INFO] Saved 26 players to the database.
+2025-10-27 14:11:22 [INFO] Updating player match stats...
+2025-10-27 14:31:24 [INFO] Player stats updated successfully.
+2025-10-27 14:31:24 [INFO] USMNT update pipeline completed successfully.
+
