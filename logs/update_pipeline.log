@@ -329,3 +329,13 @@ KeyError: 'New England Revolution'
 2025-11-17 14:31:37 [INFO] Player stats updated successfully.
 2025-11-17 14:31:37 [INFO] USMNT update pipeline completed successfully.
 
+2025-11-24 14:15:04 [INFO] Starting USMNT update pipeline at 2025-11-24 14:15:04.749762.
+2025-11-24 14:15:04 [INFO] Fetching latest player data...
+2025-11-24 14:15:04 [ERROR] Error occurred during update pipeline.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 25, in job
+    players = get_us_players()
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/soccer_players.py", line 33, in get_us_players
+    rows = table.find_all("tr", {"class": ["odd", "even"]})
+           ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'find_all'
