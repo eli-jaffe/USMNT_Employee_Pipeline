@@ -372,3 +372,16 @@ Traceback (most recent call last):
     rows = table.find_all("tr", {"class": ["odd", "even"]})
            ^^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'find_all'
+2025-12-22 14:15:53 [INFO] Starting USMNT update pipeline at 2025-12-22 14:15:53.392365.
+2025-12-22 14:15:53 [INFO] Fetching latest player data...
+2025-12-22 14:15:54 [INFO] Fetched 24 players data.
+2025-12-22 14:15:54 [INFO] Connecting to the database...
+2025-12-22 14:15:54 [INFO] Saving 24 players to the database...
+2025-12-22 14:15:54 [INFO] 24/24 players saved...
+2025-12-22 14:15:54 [INFO] All players saved successfully.
+2025-12-22 14:15:54 [INFO] Database connection closed.
+2025-12-22 14:15:54 [INFO] Saved 24 players to the database.
+2025-12-22 14:15:54 [INFO] Updating player match stats...
+2025-12-22 14:33:01 [INFO] Player stats updated successfully.
+2025-12-22 14:33:01 [INFO] USMNT update pipeline completed successfully.
+
