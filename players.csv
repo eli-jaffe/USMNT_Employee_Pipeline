@@ -1,25 +1,25 @@
 player_id,full_name,tm_profile_link,tm_player_id,tm_player_url_name,birth_date,position,club_name,club_country,last_updated
-a1a20d702e05d6a2ecc504e254a2e0ad,Patrick Schulte,/patrick-schulte/profil/spieler/649397,649397,patrick-schulte,2001-03-13,Goalkeeper,Columbus Crew,,2025-12-22T14:15:54.085027
-ce13ba17ad3752e051bc49cfbaf5ddbc,Jonathan Klinsmann,/jonathan-klinsmann/profil/spieler/334992,334992,jonathan-klinsmann,1997-04-08,Goalkeeper,Cesena FC,,2025-12-22T14:15:54.085192
-3abaf280fbe70a8916523d8fd0b56ab5,Roman Celentano,/roman-celentano/profil/spieler/972454,972454,roman-celentano,2000-09-14,Goalkeeper,FC Cincinnati,,2025-12-22T14:15:54.085330
-c318749e654c677395eacd41c1627f0b,Matt Freese,/matt-freese/profil/spieler/500309,500309,matt-freese,1998-09-02,Goalkeeper,New York City FC,,2025-12-22T14:15:54.085482
-fcfbbf38944d9efd16d411e65a459efb,Mark McKenzie,/mark-mckenzie/profil/spieler/429259,429259,mark-mckenzie,1999-02-25,Centre-Back,FC Toulouse,,2025-12-22T14:15:54.085610
-321431b71dddf16f9f347b6acb344754,Auston Trusty,/auston-trusty/profil/spieler/389253,389253,auston-trusty,1998-08-12,Centre-Back,Celtic FC,,2025-12-22T14:15:54.085730
-27e8de5bfc8ddfd25cd59f53ab587586,Miles Robinson,/miles-robinson/profil/spieler/468022,468022,miles-robinson,1997-03-14,Centre-Back,FC Cincinnati,,2025-12-22T14:15:54.085851
-8b543e31b90a7ff6ee46f32b3013c51a,Tim Ream,/tim-ream/profil/spieler/145466,145466,tim-ream,1987-10-05,Centre-Back,Charlotte FC,,2025-12-22T14:15:54.085980
-15f44292c192c267326a9a9f1c2693c4,John Tolkin,/john-tolkin/profil/spieler/683812,683812,john-tolkin,2002-07-31,Left-Back,Holstein Kiel,,2025-12-22T14:15:54.086102
-1dedbe1fb28035f9870913e42cfc56ea,Sergiño Dest,/sergino-dest/profil/spieler/361104,361104,sergino-dest,2000-11-03,Right-Back,PSV Eindhoven,,2025-12-22T14:15:54.086221
-8d93179237a18bf55d090c32e3ad6d39,Joe Scally,/joe-scally/profil/spieler/504153,504153,joe-scally,2002-12-31,Right-Back,Borussia Mönchengladbach,,2025-12-22T14:15:54.086338
-424c8623840d907447527f083741d3ec,Alex Freeman,/alex-freeman/profil/spieler/985806,985806,alex-freeman,2004-08-09,Right-Back,Orlando City SC,,2025-12-22T14:15:54.086489
-208ac89d5698d23c31bfa8203a17c65b,Tanner Tessmann,/tanner-tessmann/profil/spieler/670096,670096,tanner-tessmann,2001-09-24,Defensive Midfield,Olympique Lyon,,2025-12-22T14:15:54.086610
-fd0fc285795d5bd2c8e27eff979d50be,Aidan Morris,/aidan-morris/profil/spieler/513968,513968,aidan-morris,2001-11-16,Central Midfield,Middlesbrough FC,,2025-12-22T14:15:54.086726
-7414dc55c1811f36322567cfe6fd4e34,Sebastian Berhalter,/sebastian-berhalter/profil/spieler/734761,734761,sebastian-berhalter,2001-05-10,Central Midfield,Vancouver Whitecaps FC,,2025-12-22T14:15:54.086842
-debfe91377979f42ebdacff8cbae8331,Cristian Roldán,/cristian-roldan/profil/spieler/354792,354792,cristian-roldan,1995-06-03,Central Midfield,Seattle Sounders FC,,2025-12-22T14:15:54.086964
-ce1cf8132648828281085f6415211f7d,Timothy Tillman,/timothy-tillman/profil/spieler/310662,310662,timothy-tillman,1999-01-04,Central Midfield,Los Angeles FC,,2025-12-22T14:15:54.087079
-6388281fe3d1f9c71643d8d6afc6782a,Diego Luna,/diego-luna/profil/spieler/880626,880626,diego-luna,2003-09-07,Left Midfield,Real Salt Lake City,,2025-12-22T14:15:54.087200
-f7688f09fc19837be376dfb7340ebc9f,Brenden Aaronson,/brenden-aaronson/profil/spieler/393323,393323,brenden-aaronson,2000-10-22,Attacking Midfield,Leeds United,,2025-12-22T14:15:54.087315
-23a9e43e26268ce4ec63a46af4a466bf,Giovanni Reyna,/giovanni-reyna/profil/spieler/504215,504215,giovanni-reyna,2002-11-13,Attacking Midfield,Borussia Mönchengladbach,,2025-12-22T14:15:54.087448
-ec363860130a78f424bcee9b500ba85a,Max Arfsten,/max-arfsten/profil/spieler/993063,993063,max-arfsten,2001-04-19,Left Winger,Columbus Crew,,2025-12-22T14:15:54.087570
-91228c2a9fd8778938b74b0dec4f7772,Folarin Balogun,/folarin-balogun/profil/spieler/503770,503770,folarin-balogun,2001-07-03,Centre-Forward,AS Monaco,,2025-12-22T14:15:54.087685
-296e8411bcc0b6106dacb91b2fade634,Ricardo Pepi,/ricardo-pepi/profil/spieler/627207,627207,ricardo-pepi,2003-01-09,Centre-Forward,PSV Eindhoven,,2025-12-22T14:15:54.087799
-fcc75917e36ec91fcffc009d6dda2ca1,Haji Wright,/haji-wright/profil/spieler/315291,315291,haji-wright,1998-03-27,Centre-Forward,Coventry City,,2025-12-22T14:15:54.087914
+a1a20d702e05d6a2ecc504e254a2e0ad,Patrick Schulte,/patrick-schulte/profil/spieler/649397,649397,patrick-schulte,2001-03-13,Goalkeeper,Columbus Crew,,2025-12-29T14:16:41.525392
+ce13ba17ad3752e051bc49cfbaf5ddbc,Jonathan Klinsmann,/jonathan-klinsmann/profil/spieler/334992,334992,jonathan-klinsmann,1997-04-08,Goalkeeper,Cesena FC,,2025-12-29T14:16:41.525558
+3abaf280fbe70a8916523d8fd0b56ab5,Roman Celentano,/roman-celentano/profil/spieler/972454,972454,roman-celentano,2000-09-14,Goalkeeper,FC Cincinnati,,2025-12-29T14:16:41.525690
+c318749e654c677395eacd41c1627f0b,Matt Freese,/matt-freese/profil/spieler/500309,500309,matt-freese,1998-09-02,Goalkeeper,New York City FC,,2025-12-29T14:16:41.525813
+fcfbbf38944d9efd16d411e65a459efb,Mark McKenzie,/mark-mckenzie/profil/spieler/429259,429259,mark-mckenzie,1999-02-25,Centre-Back,FC Toulouse,,2025-12-29T14:16:41.525935
+321431b71dddf16f9f347b6acb344754,Auston Trusty,/auston-trusty/profil/spieler/389253,389253,auston-trusty,1998-08-12,Centre-Back,Celtic FC,,2025-12-29T14:16:41.526054
+27e8de5bfc8ddfd25cd59f53ab587586,Miles Robinson,/miles-robinson/profil/spieler/468022,468022,miles-robinson,1997-03-14,Centre-Back,FC Cincinnati,,2025-12-29T14:16:41.526198
+8b543e31b90a7ff6ee46f32b3013c51a,Tim Ream,/tim-ream/profil/spieler/145466,145466,tim-ream,1987-10-05,Centre-Back,Charlotte FC,,2025-12-29T14:16:41.526324
+15f44292c192c267326a9a9f1c2693c4,John Tolkin,/john-tolkin/profil/spieler/683812,683812,john-tolkin,2002-07-31,Left-Back,Holstein Kiel,,2025-12-29T14:16:41.526442
+1dedbe1fb28035f9870913e42cfc56ea,Sergiño Dest,/sergino-dest/profil/spieler/361104,361104,sergino-dest,2000-11-03,Right-Back,PSV Eindhoven,,2025-12-29T14:16:41.526563
+8d93179237a18bf55d090c32e3ad6d39,Joe Scally,/joe-scally/profil/spieler/504153,504153,joe-scally,2002-12-31,Right-Back,Borussia Mönchengladbach,,2025-12-29T14:16:41.526681
+424c8623840d907447527f083741d3ec,Alex Freeman,/alex-freeman/profil/spieler/985806,985806,alex-freeman,2004-08-09,Right-Back,Orlando City SC,,2025-12-29T14:16:41.526798
+208ac89d5698d23c31bfa8203a17c65b,Tanner Tessmann,/tanner-tessmann/profil/spieler/670096,670096,tanner-tessmann,2001-09-24,Defensive Midfield,Olympique Lyon,,2025-12-29T14:16:41.526913
+fd0fc285795d5bd2c8e27eff979d50be,Aidan Morris,/aidan-morris/profil/spieler/513968,513968,aidan-morris,2001-11-16,Central Midfield,Middlesbrough FC,,2025-12-29T14:16:41.527024
+7414dc55c1811f36322567cfe6fd4e34,Sebastian Berhalter,/sebastian-berhalter/profil/spieler/734761,734761,sebastian-berhalter,2001-05-10,Central Midfield,Vancouver Whitecaps FC,,2025-12-29T14:16:41.527159
+debfe91377979f42ebdacff8cbae8331,Cristian Roldán,/cristian-roldan/profil/spieler/354792,354792,cristian-roldan,1995-06-03,Central Midfield,Seattle Sounders FC,,2025-12-29T14:16:41.527278
+ce1cf8132648828281085f6415211f7d,Timothy Tillman,/timothy-tillman/profil/spieler/310662,310662,timothy-tillman,1999-01-04,Central Midfield,Los Angeles FC,,2025-12-29T14:16:41.527396
+6388281fe3d1f9c71643d8d6afc6782a,Diego Luna,/diego-luna/profil/spieler/880626,880626,diego-luna,2003-09-07,Left Midfield,Real Salt Lake City,,2025-12-29T14:16:41.527509
+f7688f09fc19837be376dfb7340ebc9f,Brenden Aaronson,/brenden-aaronson/profil/spieler/393323,393323,brenden-aaronson,2000-10-22,Attacking Midfield,Leeds United,,2025-12-29T14:16:41.527622
+23a9e43e26268ce4ec63a46af4a466bf,Giovanni Reyna,/giovanni-reyna/profil/spieler/504215,504215,giovanni-reyna,2002-11-13,Attacking Midfield,Borussia Mönchengladbach,,2025-12-29T14:16:41.527736
+ec363860130a78f424bcee9b500ba85a,Max Arfsten,/max-arfsten/profil/spieler/993063,993063,max-arfsten,2001-04-19,Left Winger,Columbus Crew,,2025-12-29T14:16:41.527855
+91228c2a9fd8778938b74b0dec4f7772,Folarin Balogun,/folarin-balogun/profil/spieler/503770,503770,folarin-balogun,2001-07-03,Centre-Forward,AS Monaco,,2025-12-29T14:16:41.527968
+296e8411bcc0b6106dacb91b2fade634,Ricardo Pepi,/ricardo-pepi/profil/spieler/627207,627207,ricardo-pepi,2003-01-09,Centre-Forward,PSV Eindhoven,,2025-12-29T14:16:41.528097
+fcc75917e36ec91fcffc009d6dda2ca1,Haji Wright,/haji-wright/profil/spieler/315291,315291,haji-wright,1998-03-27,Centre-Forward,Coventry City,,2025-12-29T14:16:41.528215

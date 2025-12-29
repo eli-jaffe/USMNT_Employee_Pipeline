@@ -4164,3 +4164,444 @@ Connection <sqlite3.Connection object at 0x7f423ebf3a60> created
 [SUCCESS] Player stats saved/updated successfully.
 [INFO] Database connection closed.
 Player stats update complete.
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7fa1c1ad1030> created
+[INFO] Connection established.
+[INFO] Saving 24 player records to database...
+[SUCCESS] All records saved successfully!
+[INFO] Database connection closed.
+Fetching player list...
+[INFO] Establishing database connection...
+Connection <sqlite3.Connection object at 0x7fa1b0cc9120> created
+[INFO] Connection established.
+[SUCCESS] Loaded 45 players from the database.
+[INFO] Database connection closed.
+Found 45 players.
+                          player_id  ...                last_updated
+0  e5f538bcbc4a195eeb47bf55ab75abf8  ...  2025-09-29T14:10:22.166857
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "6'"
+Error parsing row: invalid literal for int() with base 10: "28'"
+Error parsing row: invalid literal for int() with base 10: "10'"
+Error parsing row: invalid literal for int() with base 10: "65'"
+Sleeping for 19.89 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+1  ddd666b0632290e346686a472c19f569  ...  2025-09-29T14:10:22.166989
+
+[1 rows x 10 columns]
+Sleeping for 19.62 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+2  513544f5f7612401874674cb793b8f23  ...  2025-09-29T14:10:22.167480
+
+[1 rows x 10 columns]
+Sleeping for 6.70 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+3  92e939dfa453b55b492da8f0bed7d561  ...  2025-09-29T14:10:22.167710
+
+[1 rows x 10 columns]
+Sleeping for 15.63 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+4  80bb65f07f70b1c7923842eee10269a0  ...  2025-09-29T14:10:22.168076
+
+[1 rows x 10 columns]
+Sleeping for 5.22 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+5  4104fd18f7131d9cd4978e7f22ddf31e  ...  2025-09-29T14:10:22.168871
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 18.21 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+6  bfb4610063cc4fe03ea45aa3d2ac6164  ...  2025-09-29T14:10:22.168982
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "86'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 11.76 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+7  89115bb8efd1d9f3202f9edf594074f2  ...  2025-11-03T14:14:54.841853
+
+[1 rows x 10 columns]
+Sleeping for 6.04 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+8  45de3660588cc2a2e6fa6bc06ea620c0  ...  2025-11-03T14:14:54.841996
+
+[1 rows x 10 columns]
+Club name [Chicago Fire FC] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 14.33 seconds...
+Sleep finished.
+                          player_id  ...                last_updated
+9  d988a721de1b2d19143bdbb70087f0e7  ...  2025-11-03T14:14:54.842244
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Sleeping for 19.84 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+10  b117efac50f75ec41b99726816ae78da  ...  2025-11-03T14:14:54.842364
+
+[1 rows x 10 columns]
+Club name [Celtic FC] not found
+Error parsing row: invalid literal for int() with base 10: "58'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 11.46 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+11  c4e73927248e63bf1eb2aaf855408a12  ...  2025-11-03T14:14:54.842814
+
+[1 rows x 10 columns]
+Club name [Fulham FC] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 9.84 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+12  998f0a7e24f2f87f918366cde9bbf117  ...  2025-11-03T14:14:54.843187
+
+[1 rows x 10 columns]
+Club name [FC St. Pauli] not found
+Error parsing row: invalid literal for int() with base 10: "40'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "18'"
+Error parsing row: invalid literal for int() with base 10: "25'"
+Sleeping for 17.23 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+13  88c33aac413028fa09d396b3ba890041  ...  2025-11-03T14:14:54.843742
+
+[1 rows x 10 columns]
+Club name [Bayer 04 Leverkusen] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "30'"
+Sleeping for 9.41 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+14  d86ef576b60e9a29075f3e438bf83b40  ...  2025-11-03T14:14:54.844099
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 8.50 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+15  b4a552b44965781467db2591fb62e2b3  ...  2025-11-03T14:14:54.844214
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "50'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 14.22 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+16  cec8b962da829fcc2335420546b54f50  ...  2025-11-03T14:14:54.844325
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "48'"
+Error parsing row: invalid literal for int() with base 10: "60'"
+Error parsing row: invalid literal for int() with base 10: "77'"
+Error parsing row: invalid literal for int() with base 10: "80'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 12.51 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+17  fd429c75bce676b814b29f27aeb29c7a  ...  2025-11-03T14:14:54.844658
+
+[1 rows x 10 columns]
+Club name [Derby County] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 10.89 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+18  0c49bd1bde21d785799d36cd2bf09ae9  ...  2025-11-10T14:14:49.144616
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "58'"
+Error parsing row: invalid literal for int() with base 10: "88'"
+Error parsing row: invalid literal for int() with base 10: "45 + 5'"
+Error parsing row: invalid literal for int() with base 10: "40'"
+Error parsing row: invalid literal for int() with base 10: "53'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 8.02 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+19  c0f5aa96dd886f469a4c3d9641d7e7fa  ...  2025-11-10T14:14:49.144845
+
+[1 rows x 10 columns]
+Club name [Juventus FC] not found
+Error parsing row: invalid literal for int() with base 10: "90 + 4'"
+Sleeping for 9.70 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+20  2b513d677f85cae654bcae694b4a61ad  ...  2025-11-10T14:14:49.145322
+
+[1 rows x 10 columns]
+Sleeping for 16.82 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+21  a1a20d702e05d6a2ecc504e254a2e0ad  ...  2025-12-29T14:16:41.525392
+
+[1 rows x 10 columns]
+Sleeping for 8.17 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+22  ce13ba17ad3752e051bc49cfbaf5ddbc  ...  2025-12-29T14:16:41.525558
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "77'"
+Sleeping for 10.74 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+23  3abaf280fbe70a8916523d8fd0b56ab5  ...  2025-12-29T14:16:41.525690
+
+[1 rows x 10 columns]
+Sleeping for 13.51 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+24  c318749e654c677395eacd41c1627f0b  ...  2025-12-29T14:16:41.525813
+
+[1 rows x 10 columns]
+Sleeping for 10.76 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+25  fcfbbf38944d9efd16d411e65a459efb  ...  2025-12-29T14:16:41.525935
+
+[1 rows x 10 columns]
+Club name [FC Toulouse] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 13.47 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+26  321431b71dddf16f9f347b6acb344754  ...  2025-12-29T14:16:41.526054
+
+[1 rows x 10 columns]
+Club name [Celtic FC] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 5.20 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+27  27e8de5bfc8ddfd25cd59f53ab587586  ...  2025-12-29T14:16:41.526198
+
+[1 rows x 10 columns]
+Sleeping for 7.47 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+28  8b543e31b90a7ff6ee46f32b3013c51a  ...  2025-12-29T14:16:41.526324
+
+[1 rows x 10 columns]
+Sleeping for 8.08 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+29  15f44292c192c267326a9a9f1c2693c4  ...  2025-12-29T14:16:41.526442
+
+[1 rows x 10 columns]
+Club name [Holstein Kiel] not found
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "27'"
+Sleeping for 10.28 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+30  1dedbe1fb28035f9870913e42cfc56ea  ...  2025-12-29T14:16:41.526563
+
+[1 rows x 10 columns]
+Error parsing row: invalid literal for int() with base 10: "81'"
+Error parsing row: invalid literal for int() with base 10: "69'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "27'"
+Error parsing row: invalid literal for int() with base 10: "62'"
+Sleeping for 18.16 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+31  8d93179237a18bf55d090c32e3ad6d39  ...  2025-12-29T14:16:41.526681
+
+[1 rows x 10 columns]
+Club name [Borussia Mönchengladbach] not found
+Error parsing row: invalid literal for int() with base 10: "85'"
+Error parsing row: invalid literal for int() with base 10: "75'"
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "49'"
+Error parsing row: invalid literal for int() with base 10: "82'"
+Error parsing row: invalid literal for int() with base 10: "25'"
+Error parsing row: list index out of range
+Sleeping for 13.19 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+32  424c8623840d907447527f083741d3ec  ...  2025-12-29T14:16:41.526798
+
+[1 rows x 10 columns]
+Sleeping for 19.90 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+33  208ac89d5698d23c31bfa8203a17c65b  ...  2025-12-29T14:16:41.526913
+
+[1 rows x 10 columns]
+Club name [Olympique Lyon] not found
+Error parsing row: invalid literal for int() with base 10: "75'"
+Error parsing row: list index out of range
+Sleeping for 9.43 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+34  fd0fc285795d5bd2c8e27eff979d50be  ...  2025-12-29T14:16:41.527024
+
+[1 rows x 10 columns]
+Club name [Middlesbrough FC] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 9.23 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+35  7414dc55c1811f36322567cfe6fd4e34  ...  2025-12-29T14:16:41.527159
+
+[1 rows x 10 columns]
+Sleeping for 7.49 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+36  debfe91377979f42ebdacff8cbae8331  ...  2025-12-29T14:16:41.527278
+
+[1 rows x 10 columns]
+Sleeping for 11.96 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+37  ce1cf8132648828281085f6415211f7d  ...  2025-12-29T14:16:41.527396
+
+[1 rows x 10 columns]
+Club name [Los Angeles FC] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 19.57 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+38  6388281fe3d1f9c71643d8d6afc6782a  ...  2025-12-29T14:16:41.527509
+
+[1 rows x 10 columns]
+Sleeping for 5.55 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+39  f7688f09fc19837be376dfb7340ebc9f  ...  2025-12-29T14:16:41.527622
+
+[1 rows x 10 columns]
+Club name [Leeds United] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 19.08 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+40  23a9e43e26268ce4ec63a46af4a466bf  ...  2025-12-29T14:16:41.527736
+
+[1 rows x 10 columns]
+Club name [Borussia Mönchengladbach] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "90 + 4'"
+Sleeping for 18.53 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+41  ec363860130a78f424bcee9b500ba85a  ...  2025-12-29T14:16:41.527855
+
+[1 rows x 10 columns]
+Sleeping for 12.63 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+42  91228c2a9fd8778938b74b0dec4f7772  ...  2025-12-29T14:16:41.527968
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: invalid literal for int() with base 10: "45'"
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 16.29 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+43  296e8411bcc0b6106dacb91b2fade634  ...  2025-12-29T14:16:41.528097
+
+[1 rows x 10 columns]
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 6.29 seconds...
+Sleep finished.
+                           player_id  ...                last_updated
+44  fcc75917e36ec91fcffc009d6dda2ca1  ...  2025-12-29T14:16:41.528215
+
+[1 rows x 10 columns]
+Club name [Coventry City] not found
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Error parsing row: list index out of range
+Sleeping for 15.96 seconds...
+Sleep finished.
+Saving 254 player stats to DB...
+[INFO] Connecting to database...
+Connection <sqlite3.Connection object at 0x7fa1b0eefd30> created
+[INFO] Connection established.
+[INFO] Saving 254 player match records...
+[SUCCESS] Player stats saved/updated successfully.
+[INFO] Database connection closed.
+Player stats update complete.
