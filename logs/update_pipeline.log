@@ -541,3 +541,16 @@ AttributeError: 'NoneType' object has no attribute 'find_all'
 2026-03-16 15:13:56 [INFO] Player stats updated successfully.
 2026-03-16 15:13:56 [INFO] USMNT update pipeline completed successfully.
 
+2026-03-23 14:51:51 [INFO] Starting USMNT update pipeline at 2026-03-23 14:51:51.874071.
+2026-03-23 14:51:51 [INFO] Fetching latest player data...
+2026-03-23 14:51:52 [INFO] Fetched 27 players data.
+2026-03-23 14:51:52 [INFO] Connecting to the database...
+2026-03-23 14:51:52 [INFO] Saving 27 players to the database...
+2026-03-23 14:51:52 [INFO] 27/27 players saved...
+2026-03-23 14:51:52 [INFO] All players saved successfully.
+2026-03-23 14:51:52 [INFO] Database connection closed.
+2026-03-23 14:51:52 [INFO] Saved 27 players to the database.
+2026-03-23 14:51:52 [INFO] Updating player match stats...
+2026-03-23 15:14:30 [INFO] Player stats updated successfully.
+2026-03-23 15:14:30 [INFO] USMNT update pipeline completed successfully.
+

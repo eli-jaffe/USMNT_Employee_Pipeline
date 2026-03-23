@@ -1,25 +1,28 @@
 player_id,full_name,tm_profile_link,tm_player_id,tm_player_url_name,birth_date,position,club_name,club_country,last_updated
-a1a20d702e05d6a2ecc504e254a2e0ad,Patrick Schulte,/patrick-schulte/profil/spieler/649397,649397,patrick-schulte,2001-03-13,Goalkeeper,Columbus Crew,,2026-03-16T14:57:00.356802
-ce13ba17ad3752e051bc49cfbaf5ddbc,Jonathan Klinsmann,/jonathan-klinsmann/profil/spieler/334992,334992,jonathan-klinsmann,1997-04-08,Goalkeeper,Cesena FC,,2026-03-16T14:57:00.356970
-3abaf280fbe70a8916523d8fd0b56ab5,Roman Celentano,/roman-celentano/profil/spieler/972454,972454,roman-celentano,2000-09-14,Goalkeeper,FC Cincinnati,,2026-03-16T14:57:00.357101
-c318749e654c677395eacd41c1627f0b,Matt Freese,/matt-freese/profil/spieler/500309,500309,matt-freese,1998-09-02,Goalkeeper,New York City FC,,2026-03-16T14:57:00.357254
-321431b71dddf16f9f347b6acb344754,Auston Trusty,/auston-trusty/profil/spieler/389253,389253,auston-trusty,1998-08-12,Centre-Back,Celtic FC,,2026-03-16T14:57:00.357383
-fcfbbf38944d9efd16d411e65a459efb,Mark McKenzie,/mark-mckenzie/profil/spieler/429259,429259,mark-mckenzie,1999-02-25,Centre-Back,FC Toulouse,,2026-03-16T14:57:00.357503
-27e8de5bfc8ddfd25cd59f53ab587586,Miles Robinson,/miles-robinson/profil/spieler/468022,468022,miles-robinson,1997-03-14,Centre-Back,FC Cincinnati,,2026-03-16T14:57:00.357619
-8b543e31b90a7ff6ee46f32b3013c51a,Tim Ream,/tim-ream/profil/spieler/145466,145466,tim-ream,1987-10-05,Centre-Back,Charlotte FC,,2026-03-16T14:57:00.357741
-15f44292c192c267326a9a9f1c2693c4,John Tolkin,/john-tolkin/profil/spieler/683812,683812,john-tolkin,2002-07-31,Left-Back,Holstein Kiel,,2026-03-16T14:57:00.357859
-1dedbe1fb28035f9870913e42cfc56ea,Sergiño Dest,/sergino-dest/profil/spieler/361104,361104,sergino-dest,2000-11-03,Right-Back,PSV Eindhoven,,2026-03-16T14:57:00.357977
-8d93179237a18bf55d090c32e3ad6d39,Joe Scally,/joe-scally/profil/spieler/504153,504153,joe-scally,2002-12-31,Right-Back,Borussia Mönchengladbach,,2026-03-16T14:57:00.358101
-424c8623840d907447527f083741d3ec,Alex Freeman,/alex-freeman/profil/spieler/985806,985806,alex-freeman,2004-08-09,Right-Back,Villarreal CF,,2026-03-16T14:57:00.358244
-208ac89d5698d23c31bfa8203a17c65b,Tanner Tessmann,/tanner-tessmann/profil/spieler/670096,670096,tanner-tessmann,2001-09-24,Defensive Midfield,Olympique Lyon,,2026-03-16T14:57:00.358361
-fd0fc285795d5bd2c8e27eff979d50be,Aidan Morris,/aidan-morris/profil/spieler/513968,513968,aidan-morris,2001-11-16,Central Midfield,Middlesbrough FC,,2026-03-16T14:57:00.358475
-7414dc55c1811f36322567cfe6fd4e34,Sebastian Berhalter,/sebastian-berhalter/profil/spieler/734761,734761,sebastian-berhalter,2001-05-10,Central Midfield,Vancouver Whitecaps FC,,2026-03-16T14:57:00.358588
-debfe91377979f42ebdacff8cbae8331,Cristian Roldán,/cristian-roldan/profil/spieler/354792,354792,cristian-roldan,1995-06-03,Central Midfield,Seattle Sounders FC,,2026-03-16T14:57:00.358700
-ce1cf8132648828281085f6415211f7d,Timothy Tillman,/timothy-tillman/profil/spieler/310662,310662,timothy-tillman,1999-01-04,Central Midfield,Los Angeles FC,,2026-03-16T14:57:00.358814
-6388281fe3d1f9c71643d8d6afc6782a,Diego Luna,/diego-luna/profil/spieler/880626,880626,diego-luna,2003-09-07,Left Midfield,Real Salt Lake City,,2026-03-16T14:57:00.358927
-f7688f09fc19837be376dfb7340ebc9f,Brenden Aaronson,/brenden-aaronson/profil/spieler/393323,393323,brenden-aaronson,2000-10-22,Attacking Midfield,Leeds United,,2026-03-16T14:57:00.359043
-23a9e43e26268ce4ec63a46af4a466bf,Giovanni Reyna,/giovanni-reyna/profil/spieler/504215,504215,giovanni-reyna,2002-11-13,Attacking Midfield,Borussia Mönchengladbach,,2026-03-16T14:57:00.359155
-ec363860130a78f424bcee9b500ba85a,Max Arfsten,/max-arfsten/profil/spieler/993063,993063,max-arfsten,2001-04-19,Left Winger,Columbus Crew,,2026-03-16T14:57:00.359299
-296e8411bcc0b6106dacb91b2fade634,Ricardo Pepi,/ricardo-pepi/profil/spieler/627207,627207,ricardo-pepi,2003-01-09,Centre-Forward,PSV Eindhoven,,2026-03-16T14:57:00.359414
-91228c2a9fd8778938b74b0dec4f7772,Folarin Balogun,/folarin-balogun/profil/spieler/503770,503770,folarin-balogun,2001-07-03,Centre-Forward,AS Monaco,,2026-03-16T14:57:00.359528
-fcc75917e36ec91fcffc009d6dda2ca1,Haji Wright,/haji-wright/profil/spieler/315291,315291,haji-wright,1998-03-27,Centre-Forward,Coventry City,,2026-03-16T14:57:00.359642
+a1a20d702e05d6a2ecc504e254a2e0ad,Patrick Schulte,/patrick-schulte/profil/spieler/649397,649397,patrick-schulte,2001-03-13,Goalkeeper,Columbus Crew,,2026-03-23T14:51:52.426516
+89115bb8efd1d9f3202f9edf594074f2,Matt Turner,/matt-turner/profil/spieler/425306,425306,matt-turner,1994-06-24,Goalkeeper,New England Revolution,,2026-03-23T14:51:52.426696
+45de3660588cc2a2e6fa6bc06ea620c0,Chris Brady,/chris-brady/profil/spieler/765504,765504,chris-brady,2004-03-03,Goalkeeper,Chicago Fire FC,,2026-03-23T14:51:52.426825
+c318749e654c677395eacd41c1627f0b,Matt Freese,/matt-freese/profil/spieler/500309,500309,matt-freese,1998-09-02,Goalkeeper,New York City FC,,2026-03-23T14:51:52.426947
+d988a721de1b2d19143bdbb70087f0e7,Chris Richards,/chris-richards/profil/spieler/578539,578539,chris-richards,2000-03-28,Centre-Back,Crystal Palace,,2026-03-23T14:51:52.427074
+321431b71dddf16f9f347b6acb344754,Auston Trusty,/auston-trusty/profil/spieler/389253,389253,auston-trusty,1998-08-12,Centre-Back,Celtic FC,,2026-03-23T14:51:52.427192
+fcfbbf38944d9efd16d411e65a459efb,Mark McKenzie,/mark-mckenzie/profil/spieler/429259,429259,mark-mckenzie,1999-02-25,Centre-Back,FC Toulouse,,2026-03-23T14:51:52.427306
+27e8de5bfc8ddfd25cd59f53ab587586,Miles Robinson,/miles-robinson/profil/spieler/468022,468022,miles-robinson,1997-03-14,Centre-Back,FC Cincinnati,,2026-03-23T14:51:52.427425
+8b543e31b90a7ff6ee46f32b3013c51a,Tim Ream,/tim-ream/profil/spieler/145466,145466,tim-ream,1987-10-05,Centre-Back,Charlotte FC,,2026-03-23T14:51:52.427542
+c4e73927248e63bf1eb2aaf855408a12,Antonee Robinson,/antonee-robinson/profil/spieler/349701,349701,antonee-robinson,1997-08-08,Left-Back,Fulham FC,,2026-03-23T14:51:52.427682
+8d93179237a18bf55d090c32e3ad6d39,Joe Scally,/joe-scally/profil/spieler/504153,504153,joe-scally,2002-12-31,Right-Back,Borussia Mönchengladbach,,2026-03-23T14:51:52.427799
+424c8623840d907447527f083741d3ec,Alex Freeman,/alex-freeman/profil/spieler/985806,985806,alex-freeman,2004-08-09,Right-Back,Villarreal CF,,2026-03-23T14:51:52.427923
+208ac89d5698d23c31bfa8203a17c65b,Tanner Tessmann,/tanner-tessmann/profil/spieler/670096,670096,tanner-tessmann,2001-09-24,Defensive Midfield,Olympique Lyon,,2026-03-23T14:51:52.428046
+c0f5aa96dd886f469a4c3d9641d7e7fa,Weston McKennie,/weston-mckennie/profil/spieler/332697,332697,weston-mckennie,1998-08-28,Central Midfield,Juventus FC,,2026-03-23T14:51:52.428162
+3eee3d224ce5568b91d59ff4610bd22c,Johnny Cardoso,/johnny-cardoso/profil/spieler/689505,689505,johnny-cardoso,2001-09-20,Central Midfield,Atlético de Madrid,,2026-03-23T14:51:52.428283
+fd0fc285795d5bd2c8e27eff979d50be,Aidan Morris,/aidan-morris/profil/spieler/513968,513968,aidan-morris,2001-11-16,Central Midfield,Middlesbrough FC,,2026-03-23T14:51:52.428397
+7414dc55c1811f36322567cfe6fd4e34,Sebastian Berhalter,/sebastian-berhalter/profil/spieler/734761,734761,sebastian-berhalter,2001-05-10,Central Midfield,Vancouver Whitecaps FC,,2026-03-23T14:51:52.428510
+debfe91377979f42ebdacff8cbae8331,Cristian Roldán,/cristian-roldan/profil/spieler/354792,354792,cristian-roldan,1995-06-03,Central Midfield,Seattle Sounders FC,,2026-03-23T14:51:52.428646
+b4a552b44965781467db2591fb62e2b3,Timothy Weah,/timothy-weah/profil/spieler/370846,370846,timothy-weah,2000-02-22,Right Midfield,Olympique Marseille,,2026-03-23T14:51:52.428758
+88c33aac413028fa09d396b3ba890041,Malik Tillman,/malik-tillman/profil/spieler/467437,467437,malik-tillman,2002-05-28,Attacking Midfield,Bayer 04 Leverkusen,,2026-03-23T14:51:52.428870
+f7688f09fc19837be376dfb7340ebc9f,Brenden Aaronson,/brenden-aaronson/profil/spieler/393323,393323,brenden-aaronson,2000-10-22,Attacking Midfield,Leeds United,,2026-03-23T14:51:52.428982
+23a9e43e26268ce4ec63a46af4a466bf,Giovanni Reyna,/giovanni-reyna/profil/spieler/504215,504215,giovanni-reyna,2002-11-13,Attacking Midfield,Borussia Mönchengladbach,,2026-03-23T14:51:52.429093
+ec363860130a78f424bcee9b500ba85a,Max Arfsten,/max-arfsten/profil/spieler/993063,993063,max-arfsten,2001-04-19,Left Winger,Columbus Crew,,2026-03-23T14:51:52.429201
+d86ef576b60e9a29075f3e438bf83b40,Christian Pulisic,/christian-pulisic/profil/spieler/315779,315779,christian-pulisic,1998-09-18,Right Winger,AC Milan,,2026-03-23T14:51:52.429321
+296e8411bcc0b6106dacb91b2fade634,Ricardo Pepi,/ricardo-pepi/profil/spieler/627207,627207,ricardo-pepi,2003-01-09,Centre-Forward,PSV Eindhoven,,2026-03-23T14:51:52.429441
+91228c2a9fd8778938b74b0dec4f7772,Folarin Balogun,/folarin-balogun/profil/spieler/503770,503770,folarin-balogun,2001-07-03,Centre-Forward,AS Monaco,,2026-03-23T14:51:52.429552
+fd429c75bce676b814b29f27aeb29c7a,Patrick Agyemang,/patrick-agyemang/profil/spieler/1089574,1089574,patrick-agyemang,2000-11-07,Centre-Forward,Derby County,,2026-03-23T14:51:52.429689
