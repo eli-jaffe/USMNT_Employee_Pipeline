@@ -9,8 +9,17 @@ import re
 import os
 import sys
 
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv()
+
 # this enables imports from other folders in parent directory
-current_path = os.path.dirname(os.path.realpath(__file__))
+try:
+    current_path = os.path.dirname(os.path.realpath(__file__))
+
+except:
+    load_dotenv(os.path.join(os.getcwd(), '.env'))
+    current_path = os.getenv('USMNT_PROJECT_PATH')  # this allows for successful import when running locally
 parent_path = os.path.dirname(current_path)
 sys.path.append(parent_path)
 
@@ -365,3 +374,7 @@ def update_player_stats():
 
 if __name__ == "__main__":
     update_player_stats()
+
+    #  local development examples
+    # read in players from players.csv # if us_soccer.db has not updated properly
+    # player = pd.read_csv(os.path.join(parent_path, 'players.csv')) # use dynamic pathing instead of hardcoding
