@@ -10277,3 +10277,9 @@ Connection <sqlite3.Connection object at 0x7fbbcbaff790> created
 [SUCCESS] Player stats saved/updated successfully.
 [INFO] Database connection closed.
 Player stats update complete.
+Traceback (most recent call last):
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/update_pipeline.py", line 5, in <module>
+    from stats import update_player_stats
+  File "/home/runner/work/USMNT_Employee_Pipeline/USMNT_Employee_Pipeline/stats.py", line 12, in <module>
+    from dotenv import load_dotenv, find_dotenv
+ModuleNotFoundError: No module named 'dotenv'
