@@ -2,7 +2,6 @@
 
 ## 🔔 UPDATE June 2026 - Agentic Analyst Added 🤖
 
-> [!WARNING]
 > In honor of the World Cup, I took my toy people analytics data example using the US Men's National Team and added an AI powered query assist agent  that  will answer basic and advanced analytics about players and their performance. Accessible via the command line, the agent allows users to ask natural language questions of  their data.
 
 The agent leverages a reason-plan-execute loop to ensure it answers questions accurately and effectively. The architecture is designed to allow multiple such agents to be easily  plugged in - leading to an advanced agentic ecosystem at your fingertips that can be customized based on y our organization's specific needs and use  cases.  
